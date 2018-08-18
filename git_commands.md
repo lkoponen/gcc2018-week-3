@@ -20,8 +20,12 @@ Example -  `git add git_commands.md` will add the file *git_commands.md* to the 
 `git status`
 
 ### To see the commits that have been made
-This will allow you to see who made the commit, when the commit was made, a special hash (sequence of random numbers) for each commit, and the message attached to the commit  
+This will allow you to see who made the commit, when the commit was made, a special hash (sequence of random numbers) for each commit, and the message attached to the commit.  
 `git log`
+
+### Exit git log
+`q`    
+
 
 ## Commit
 ### To commit a change
@@ -71,6 +75,10 @@ This will delete the file, as well as push the deletion into the staging environ
 
 ### To delete a branch
 `git branch -d <name of branch you want to delete>`
+
+
+## Work with Remotes
+### To share share (or "push") your local changes to the remote server
 
 ---
 
