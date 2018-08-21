@@ -61,16 +61,16 @@ Then, merge in the changes from the branch you want to take the commits from
 
 ## Remove
 ### To delete staged changes (or revert back to previous saved state)
-This will move your changes from being staged to just being tracked.
-`git checkout <file name>` for single document
+This will move your changes from being staged to just being tracked.  
+`git checkout <file name>` for single document  
 `git checkout .` for all documents
 
 ### To remove changes from staging area
-This will make it as if you never staged those changes.
+This will make it as if you never staged those changes.  
 `git reset HEAD <file name>`
 
 ### To delete a file completely
-This will delete the file, as well as push the deletion into the staging environment
+This will delete the file, as well as push the deletion into the staging environment.  
 `git rm <file name>`
 
 ### To delete a branch
